@@ -1,142 +1,103 @@
-# FloorPlanStudio（間取り図スタジオ）
+# 間取り図スタジオ（FloorPlanStudio）
 
-部屋・家具・ドア・窓を置いて、間取り図をかんたんに作れる Windows 用ソフトです。
-作った間取りは、ボタン1つで **立体パース風の「アニメ風」** にもできます。
+部屋・家具・ドア・窓を置いて間取り図を作れるWindowsソフトです。
+ボタン1つで、立体パース風の「アニメ風」表示にも切り替えられます。
 
-> Web版「間取り図メーカー」は [Daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/) にあります。
-> このソフト版は、アニメ風モード・ファイル保存・細かい設定などを追加した版です。
+## サンプル
 
-## 特長
+| アニメ風 | シンプル |
+|:---:|:---:|
+| ![アニメ風](images/sample-anime.png) | ![シンプル](images/sample-simple.png) |
 
-### 3つの表示モード
-| モード | 内容 |
-|---|---|
-| シンプル | 部屋と壁だけの、すっきりした平面図 |
-| 詳細 | 家具・設備・ドア・窓まで描き込んだ平面図 |
-| アニメ風 | 壁に高さがあり、床の素材（フローリング・畳・タイル・芝など）と家具の絵が付いた、立体パース風の絵 |
+## ダウンロード
 
-シンプルや詳細で作ったあと、モードを切り替えるだけでアニメ風になります。
+[Releases](https://github.com/daigorou-addon/FloorPlanStudio/releases) から最新の `FloorPlanStudio.Setup.x.x.x.exe` をダウンロードして実行してください。
 
-### 作る
-- 部屋（リビング・和室・寝室・水回りなど）、庭・駐車場・テラスなどの外構
-- 家具・設備（ソファ、ベッド、キッチン、浴槽、車、木、花壇、階段 など）
-- ドア・窓（種類の切り替えに対応）
-- 複数階（階ごとにタブで切り替え）
-- 元に戻す / やり直し、拡大・縮小、移動
+## 主な機能
 
-### 細かい設定
-- 家具: 色味・明るさ・個別の名前
-- 部屋: 名前・面積の表示を隠す
-- 全体: 壁の太さ、面積の表示（帖 / ㎡のみ / なし）、文字サイズ
-- 家具にマウスを乗せると名前を表示
+- **部屋・設備・家具・ドア・窓をドラッグで配置**
+  - 洋室・和室・寝室・浴室・トイレ・玄関・廊下・バルコニーなどの部屋
+  - キッチン・冷蔵庫・洗濯機・浴槽・ベッド・ソファ・テーブルなどの設備・家具
+  - 開き戸・引き違い戸・折れ戸、引き違い窓・掃き出し窓・出窓などの建具
+  - 直階段・かね折れ階段・らせん階段・ロフトはしご・吹き抜け
+  - 前面道路・駐車場・庭・塀・門などの外構、方位記号、テキスト
+- **ドア・窓は壁に吸着**。窓は両端の■で長さを変更できます
+- **部屋の角を斜めにカット**（角の○をドラッグ）
+- **複数階に対応**（階の追加・削除）
+- **3つの表示モード**：シンプル / 詳細 / アニメ風
+- 壁の太さ・文字サイズ・面積表示・名前の表示/非表示、床の色の変更
+- 拡大縮小・移動、元に戻す（Ctrl+Z）/ やり直し（Ctrl+Y）
+- ライト / ダークテーマの切り替え
+- サンプル図の表示
+- 内容はアプリに自動保存されます
 
-### 保存・出力
-- 間取りを `.floorplan` ファイルに保存・読み込み（Web版の JSON も開けます）
-- PNG 画像として保存
-- 印刷
-- 編集内容は自動保存されます
+グリッドは1マス＝455mm（太線＝910mm）です。
 
-### その他
-- 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Español
-- 起動時に GitHub の最新版を確認し、新しい版があれば知らせます（自動ダウンロードはしません）
+## 保存・出力
 
-## 動作環境
-- Windows 10 / 11（64bit）
+| 項目 | 内容 |
+|------|------|
+| 保存 / 開く | `.floorplan` ファイルとして保存・読み込み |
+| 画像出力 | PNG |
+| 印刷 | 対応 |
 
-## インストール
-[Releases](https://github.com/daigorou-addon/FloorPlanStudio/releases) から `FloorPlanStudio Setup x.x.x.exe` をダウンロードして実行してください。
+## 対応言語
 
-## 主な操作
-| 操作 | キー |
-|---|---|
-| 新規作成 | Ctrl + N |
-| 開く | Ctrl + O |
-| 保存 | Ctrl + S |
-| 名前を付けて保存 | Ctrl + Shift + S |
-| PNG で保存 | Ctrl + E |
-| 印刷 | Ctrl + P |
-| 元に戻す / やり直し | Ctrl + Z / Ctrl + Y |
-
-## ライセンス・クレジット
-- 同梱フォント Zen Kaku Gothic New は SIL Open Font License 1.1 です（`fonts/OFL.txt`）。
-- Copyright (C) 2026 daigorou-tools. All rights reserved.
+日本語 / English / 简体中文 / 繁體中文 / 한국어 / Español
 
 ## 作者
 
-作者の他のツール: [daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/)
-
-## サポート
-このソフトが役に立ったら、[Buy Me a Coffee](https://buymeacoffee.com/daigorou) で応援してもらえるとうれしいです。
+[daigorou-addon](https://github.com/daigorou-addon)
 
 ---
 
-# FloorPlanStudio
+# FloorPlanStudio (English)
 
-A Windows app for easily creating floor plans by placing rooms, furniture, doors, and windows.
-With one click, your floor plan can also be turned into a 3D-perspective-style **"Anime Style"** illustration.
+A Windows app for creating floor plans by placing rooms, furniture, doors and windows.
+With one click, you can also switch to a 3D-perspective-style "anime" view.
 
-> The web version, "Floor Plan Maker," is available at [Daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/).
-> This desktop version adds Anime Style mode, file saving, detailed settings, and more.
+## Samples
+
+| Anime style | Simple |
+|:---:|:---:|
+| ![Anime style](images/sample-anime.png) | ![Simple](images/sample-simple.png) |
+
+## Download
+
+Download the latest `FloorPlanStudio.Setup.x.x.x.exe` from [Releases](https://github.com/daigorou-addon/FloorPlanStudio/releases) and run it.
 
 ## Features
 
-### Three Display Modes
-| Mode | Description |
-|---|---|
-| Simple | A clean floor plan with just rooms and walls |
-| Detailed | A floor plan that also draws in furniture, fixtures, doors, and windows |
-| Anime Style | A 3D-perspective-style picture with walls that have height, floor materials (wood flooring, tatami, tile, grass, etc.), and furniture illustrations |
+- **Place rooms, fixtures, furniture, doors and windows by dragging**
+  - Rooms: Western-style room, Japanese-style room, bedroom, bathroom, toilet, entrance, hallway, balcony, and more
+  - Fixtures and furniture: kitchen, refrigerator, washing machine, bathtub, beds, sofa, tables, and more
+  - Doors and windows: hinged doors, sliding doors, folding doors, sliding windows, floor-to-ceiling windows, bay windows, and more
+  - Straight stairs, L-shaped stairs, spiral stairs, loft ladder, open-to-below voids
+  - Exterior elements such as front road, parking, garden, fence and gate, plus a compass symbol and text
+- **Doors and windows snap to walls**. Window length can be changed with the ■ handles at both ends
+- **Cut room corners diagonally** (drag the ○ at the corner)
+- **Multiple floors** (add and delete floors)
+- **Three display modes**: Simple / Detailed / Anime style
+- Adjust wall thickness, text size, area display, show/hide names, and floor colors
+- Zoom and pan, undo (Ctrl+Z) / redo (Ctrl+Y)
+- Light / dark theme
+- Sample plan
+- Your work is saved automatically in the app
 
-After building a plan in Simple or Detailed mode, just switch modes to get the Anime Style look.
+The grid is 455 mm per square (bold lines = 910 mm).
 
-### Create
-- Rooms (living room, Japanese-style room, bedroom, bathroom/utility areas, etc.) and outdoor areas such as gardens, parking, and terraces
-- Furniture and fixtures (sofa, bed, kitchen, bathtub, car, tree, flower bed, stairs, etc.)
-- Doors and windows (multiple types selectable)
-- Multiple floors (switch between floors with tabs)
-- Undo / redo, zoom in / out, move
+## Saving and Export
 
-### Detailed Settings
-- Furniture: tint, brightness, custom names
-- Rooms: hide name and area display
-- Global: wall thickness, area display (jo / ㎡ only / none), text size
-- Hover over furniture to show its name
+| Item | Details |
+|------|---------|
+| Save / Open | Saved and loaded as `.floorplan` files |
+| Image export | PNG |
+| Print | Supported |
 
-### Save & Export
-- Save and load floor plans as `.floorplan` files (JSON files from the web version can also be opened)
-- Save as a PNG image
-- Print
-- Your edits are saved automatically
+## Supported Languages
 
-### Other
-- 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Español
-- Checks GitHub for the latest version on startup and notifies you if a newer one is available (no automatic download)
-
-## Requirements
-- Windows 10 / 11 (64bit)
-
-## Installation
-Download and run `FloorPlanStudio Setup x.x.x.exe` from [Releases](https://github.com/daigorou-addon/FloorPlanStudio/releases).
-
-## Keyboard Shortcuts
-| Action | Keys |
-|---|---|
-| New | Ctrl + N |
-| Open | Ctrl + O |
-| Save | Ctrl + S |
-| Save As | Ctrl + Shift + S |
-| Save as PNG | Ctrl + E |
-| Print | Ctrl + P |
-| Undo / Redo | Ctrl + Z / Ctrl + Y |
-
-## License & Credits
-- The bundled font Zen Kaku Gothic New is licensed under the SIL Open Font License 1.1 (`fonts/OFL.txt`).
-- Copyright (C) 2026 daigorou-tools. All rights reserved.
+日本語 / English / 简体中文 / 繁體中文 / 한국어 / Español
 
 ## Author
 
-Other tools by the author: [daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/)
-
-## Support
-
-If you find this software useful, I'd appreciate your support via [Buy Me a Coffee](https://buymeacoffee.com/daigorou).
+[daigorou-addon](https://github.com/daigorou-addon)
