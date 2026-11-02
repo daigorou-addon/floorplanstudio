@@ -44,7 +44,7 @@
 - Windows 10 / 11（64bit）
 
 ## インストール
-[Releases]([../../releases](https://github.com/daigorou-addon/FloorPlanStudio/releases)) から `FloorPlanStudio Setup x.x.x.exe` をダウンロードして実行してください。
+[Releases](https://github.com/daigorou-addon/FloorPlanStudio/releases) から `FloorPlanStudio Setup x.x.x.exe` をダウンロードして実行してください。
 
 ## 主な操作
 | 操作 | キー |
@@ -67,3 +67,76 @@
 
 ## サポート
 このソフトが役に立ったら、[Buy Me a Coffee](https://buymeacoffee.com/daigorou) で応援してもらえるとうれしいです。
+
+---
+
+# FloorPlanStudio
+
+A Windows app for easily creating floor plans by placing rooms, furniture, doors, and windows.
+With one click, your floor plan can also be turned into a 3D-perspective-style **"Anime Style"** illustration.
+
+> The web version, "Floor Plan Maker," is available at [Daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/).
+> This desktop version adds Anime Style mode, file saving, detailed settings, and more.
+
+## Features
+
+### Three Display Modes
+| Mode | Description |
+|---|---|
+| Simple | A clean floor plan with just rooms and walls |
+| Detailed | A floor plan that also draws in furniture, fixtures, doors, and windows |
+| Anime Style | A 3D-perspective-style picture with walls that have height, floor materials (wood flooring, tatami, tile, grass, etc.), and furniture illustrations |
+
+After building a plan in Simple or Detailed mode, just switch modes to get the Anime Style look.
+
+### Create
+- Rooms (living room, Japanese-style room, bedroom, bathroom/utility areas, etc.) and outdoor areas such as gardens, parking, and terraces
+- Furniture and fixtures (sofa, bed, kitchen, bathtub, car, tree, flower bed, stairs, etc.)
+- Doors and windows (multiple types selectable)
+- Multiple floors (switch between floors with tabs)
+- Undo / redo, zoom in / out, move
+
+### Detailed Settings
+- Furniture: tint, brightness, custom names
+- Rooms: hide name and area display
+- Global: wall thickness, area display (jo / ㎡ only / none), text size
+- Hover over furniture to show its name
+
+### Save & Export
+- Save and load floor plans as `.floorplan` files (JSON files from the web version can also be opened)
+- Save as a PNG image
+- Print
+- Your edits are saved automatically
+
+### Other
+- 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Español
+- Checks GitHub for the latest version on startup and notifies you if a newer one is available (no automatic download)
+
+## Requirements
+- Windows 10 / 11 (64bit)
+
+## Installation
+Download and run `FloorPlanStudio Setup x.x.x.exe` from [Releases](https://github.com/daigorou-addon/FloorPlanStudio/releases).
+
+## Keyboard Shortcuts
+| Action | Keys |
+|---|---|
+| New | Ctrl + N |
+| Open | Ctrl + O |
+| Save | Ctrl + S |
+| Save As | Ctrl + Shift + S |
+| Save as PNG | Ctrl + E |
+| Print | Ctrl + P |
+| Undo / Redo | Ctrl + Z / Ctrl + Y |
+
+## License & Credits
+- The bundled font Zen Kaku Gothic New is licensed under the SIL Open Font License 1.1 (`fonts/OFL.txt`).
+- Copyright (C) 2026 daigorou-tools. All rights reserved.
+
+## Author
+
+Other tools by the author: [daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/)
+
+## Support
+
+If you find this software useful, I'd appreciate your support via [Buy Me a Coffee](https://buymeacoffee.com/daigorou).
