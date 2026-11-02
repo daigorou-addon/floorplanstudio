@@ -47,7 +47,7 @@
 
 ## 作者
 
-[daigorou-addon](https://github.com/daigorou-addon)
+[Daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/)
 
 ---
 
@@ -100,4 +100,4 @@ The grid is 455 mm per square (bold lines = 910 mm).
 
 ## Author
 
-[daigorou-addon](https://github.com/daigorou-addon)
+[Daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/)
