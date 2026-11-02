@@ -44,7 +44,7 @@
 - Windows 10 / 11（64bit）
 
 ## インストール
-[Releases](../../releases) から `FloorPlanStudio Setup x.x.x.exe` をダウンロードして実行してください。
+[Releases]([../../releases](https://github.com/daigorou-addon/FloorPlanStudio/releases)) から `FloorPlanStudio Setup x.x.x.exe` をダウンロードして実行してください。
 
 ## 主な操作
 | 操作 | キー |
@@ -60,6 +60,10 @@
 ## ライセンス・クレジット
 - 同梱フォント Zen Kaku Gothic New は SIL Open Font License 1.1 です（`fonts/OFL.txt`）。
 - Copyright (C) 2026 daigorou-tools. All rights reserved.
+
+## 作者
+
+作者の他のツール: [daigorou-Tools](https://daigorou-addon.github.io/daigorou-tools/)
 
 ## サポート
 このソフトが役に立ったら、[Buy Me a Coffee](https://buymeacoffee.com/daigorou) で応援してもらえるとうれしいです。
